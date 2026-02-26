@@ -29,16 +29,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="max-w-3xl mx-auto">
-           <header className="bg-black text-white flex justify-between p-6 rounded-lg">
+           <header className="bg-black text-white flex item center justify-between p-6 rounded-lg">
 <Link href={"/"} className="font-bold text-2xl">Admin Dashboard</Link>
 <Link href={"/create"} className="bg-amber-200 grid place-items-center  text-black rounded-full shadow-md px-3 py-2">Add Menu</Link>
         </header>
-        </div>
        
-        <main>
+       
+        <main className="p-4 text-lg">
            {children}
         </main>
-       
+        </div>
       </body>
     </html>
   );
