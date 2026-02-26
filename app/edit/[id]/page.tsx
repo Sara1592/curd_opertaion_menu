@@ -26,4 +26,4 @@ export default function EditPage() {
         </div>
     );
 }
-MONGODB_URI=mongodb+srv://ssaranyaselvasekar_db_user:Gb58pKYZZNoVKPmV@cluster0.iiwlw0r.mongodb.net/crud_db
+

@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
-const topicSchema = new Schema(
+const menuSchema = new Schema(
     {
         menuname:String,
         description:String,
@@ -13,6 +13,6 @@ const topicSchema = new Schema(
     }
 );
 
-const Topic = mongoose.models.Topic || mongoose.model("Topic", topicSchema);
+const Menu = mongoose.models.Menu || mongoose.model("Menu", menuSchema);
 
-export default Topic;
+export default Menu;
